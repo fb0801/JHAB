@@ -1,2 +1,2 @@
 # JHAB
-Team assignment website
+Team assignment website as part of the module Web Technologies
