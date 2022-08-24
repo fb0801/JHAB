@@ -9,7 +9,7 @@ Develop a website – you need to develop 4 web pages. First of all, you need to
 •	You need to use a separate CSS file to apply styles for the layout (it has to have responsive layout) and presentation (display the CSS code with annotations)
 •	You need to explain the above. For example… How did you structure your pages and why? What layout did you apply? What did you use to achieve that layout (tools and techniques)? Demonstrate responsiveness. How did you style your pages?
 
-<br>
+<br><br>
 
 Part 2:
 Write content for the website – a topic will be provided. You need to find out about the topic allocated to your team and…
