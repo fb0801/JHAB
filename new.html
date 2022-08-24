@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+GROUP ASSIGNMENT
+</title>
+<link rel = "stylesheet" type = "text/css" href = "farhan_stylesheet.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body id = "my">
+
+<header>
+<h1 id = "header"><span>Content Management System</span></h1>
+
+<div class = 'navbar'>
+
+<a href = "home.html"> HOME </a>
+<a href = "why_use.html"> Why Use CMS? </a>
+<a href = "new.html"> Purpose of CMS </a>
+<a href = "add.html">Advantages and Disadvantages of CMS</a> </div>
+
+
+<p id = "one">Purpose of Content Management System</p>
+
+<p id = "two"> CMS ROLES AND RESPONSIBILITIES </p>
+</header>
+
+<article>
+ <p id = "three">
+The definition of a CMS is an application (more likely web-based), that provides capabilities for multiple users with different permission levels to manage
+ (all or a section of) content, data or information of a website project, or internet / intranet application.Managing content refers to creating, editing, 
+ archiving, publishing, collaborating on, reporting, distributing website content, data and information.An example of a CMS application is a Web Application
+ that provides the following administration, control panel or website management functionalities: </p> </article>
+    
+
+<h4 style = "background-color:red; width:150px;"> <span>FUNCTIONALITIES</span> </h4>
+
+
+<ul>
+<li>Create, Edit, Publish, Archive web pages </li>
+<li> Create, Edit, Publish, Archive articles </li>
+<li> Create, Edit, Publish, Archive press releases </li>
+<li> Create, Edit, Publish, Archive blogs </li>
+<li> Add / Edit events into an Event Calendar </li>
+<li>Add / Edit Inventory (products), description, product specifications, prices, photos, etc. </li>
+<li> Enter, Edit, or View orders and print packing slips and invoices </li>
+</ul>
+</article>
+
+<h5 style = "background-color:red; width:470px;"> PLEASE DO LET US KNOW IF YOU WANT TO ADD ANY THING MORE </h5>
+<form>
+<p> Name:
+<input type = "text" name = "myname" maxlength = "30"/>
+Profession:
+<input type = "text" name = "myname" />
+</p> 
+<legend> PLAESE ADD YOUR COMMENTS </legend>
+<textarea name = "comment" cols = "25" rows = "10"> Enter your comments</textarea>
+<br />
+<input type = "submit" value = "submit comments" />
+</form>
+<h5 id = "ref"> <span> REFERENCES </span> </h5>
+<p id="edit_txt_2"><a href="https://www.youtube.com/watch?v=6vcBKwnl_Y0"style="text-decoration:none"target="_blank">Why a CMS is important</a></p>
+<p><a id="edit_txt_2" href="https://www.theedigital.com/blog/top-reasons-to-use-a-content-management-system" target="_blank">5 reasons to use CMS</a></p>
+<p><a id="edit_txt_2" href="https://www.coredna.com/blogs/cms-vs-html" target="_blank">Why use a Content Management System</a></p>
+<p><a id="edit_txt_2" href="https://www.webgrowth.co.uk/why-use-a-content-management-system-such-as-wordpress/" target="_blank">Why use a Content Management System such as WordPress</a></p><!--will open the links in new tab-->
+<p><a id="edit_txt_2" href="https://www.bing.com/images/search?view=detailV2&id=22DFEC9E36573726DFB393423F1DE29C4FD82A63&thid=OIP.60cIJAL1x7MesmcfOXn5GAAAAA&mediaurl=https%3A%2F%2Fmedia.tenor.com%2Fimages%2Feb47082402f5c7b31eb2671f3979f918%2Ftenor.gif&exph=123&expw=220&q=gon+thinking+gif&selectedindex=0&ajaxhist=0&vt=0&eim=1,2,6" target="_blank">Gon</a></p>
+<p><a id="edit_txt_2" href="https://giphy.com/gifs/Sk3KytuxDQJQ4" target="_blank">People thinking</a></p>
+
+<div class="bottom_sec">
+<!--create a footer for the site-->
+<p>DOLAPO AKINOLA - akinolad@lsbu.ac.uk </p>
+<p>FARHAN BHATTI - bhattif3@lsbu.ac.uk </p>
+<p>BILAL HUSSAIN - hussain48@lsbBu.ac.uk </p>
+<p>PRINCE SAINT JESUSPIRITIA - jesuspip@lsbu.ac.uk</p>
+<p id="foot-bottom">&copy<!--create copyright symbol--> London South Bank University 2019</p>
+
+<button onclick="topfunc()" id="mybtn" title="Go to top">Top</button>
+
+<script>
+//Get the button
+var mybutton = document.getElementById("mybtn");
+
+// When the user scrolls down 10px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topfunc() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+</div>
+</body>
+</html>
+
+
+

@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en"><!--declare the language of the page-->
+<head>
+<title>CMS</title><!--Display as site tab title-->
+<link rel="stylesheet" type="text/css" href="farhan_stylesheet.css"> 
+			<!-- link css and html-->
+<meta name ="viewport" content="width=device-width, initial-scale=1.0">
+<!--make the webpage fit the screen-->
+
+</head>
+
+<body>
+<div class="navbar">
+<!--website links for the navigation bar -->
+		<a href ="cms.html">Home</a>
+		<a href ="why_use.html">Why use CMS?</a>
+		<a href ="new.html">Purpose of CMS</a>
+		<a href ="add.html">Advantages and Disadvantages</a>
+</div>
+
+<h1 class="farhan_h1">Content Management Systems</h1>
+<p>Welcome to our website where you can find information about CMS (Content Management Systems), why use them, the purpose of CMS as well as the advantages/disadvantages</p>
+<h2>What is <abbr title="Content Management Systems">CMS?</abbr></h2>
+<img src="images/cms3.png">
+<p>Content management is a field that comprises of enterprise content management and web content management, both of which consist of two components, namely:
+(searchcontentmanagemet.techtarget.com, 2019).</p>
+<p id="main_para">A content management application (CMA) which is a graphical user interface (GUI, i.e. it a front-end application) that facilitate user control over the design, the creation, the modification and removal of web content from a site, even if the user has no knowledge of HTML. (searchcontentmanagemet.techtarget.com, 2019).2. A content delivery application (CDA, i.e. is a back-end application) that facilitates the 
+services that back the delivery of the content created with the CMA. (searchcontentmanagemet.techtarget.com, 2019)</p>
+<br>
+<h2 class="farhan_h1">Features of CMS</h2>
+<p id="main_para">Not withstanding that the features in various content management systems frequently differ, their core functions are always the same, namely: indexing, search and retrieval, format management, revision control and publishing. (searchcontentmanagemet.techtarget.com, 2019).
+Intuitive indexing, search and retrieval are features that facilitate the ease of users' access to information on the web by their ability to index data. In other words, their search functions enable users to search by attributes with keywords, name of authors or dates of publication. (searchcontentmanagemet.techtarget.com, 2019).Format management enables functions such as the conversion of scanned documents and legacy electronic documents into HTML or PDF documents. (searchcontentmanagemet.techtarget.com, 2019).</p>
+<br>
+<p id="main_para">Revision features facilitate the updating and editing of web content after they have been published online. They also keep records of alterations to files that have been made by individuals. (searchcontentmanagemet.techtarget.com, 2019).
+Publishing functions enables users to utilize tools like wizards and a template or group of templates permitted by the company to create or make changes to web contents. (searchcontentmanagemet.techtarget.com, 2019). Content Management Systems also makes tools for one-to-one marketing available to users. This functions makes it possible for websites to tailor their content and advertisements to the users choice and preferences, on the basis of information provided by the user or collected by the website. For example: when a user visits a search engine and types in "computers", the content displayed by the search engine and the advertisements that accompany it will match his search, and nothing else. (searchcontentmanagemet.techtarget.com, 2019).</p>
+<h3>Other features of CMS are mentioned below:</h3>
+<p id="main_para">A. SEO-friendly URLs.<br>
+B. Integrated and online assistance such as discussion boards.<br>
+C. Group-based permission systems.<br>
+D. Complete template support as well as customisable templates.<br>
+E. Easy wizard based install and version procedures.<br>
+F. Admin panel with multiple language support.<br>
+G. Content hierarchy with unlimited depth and size.<br>
+H. Minimal server requirements.<br>
+I. Integrated file managers.<br>
+J. Integrated audit logs.
+(searchcontentmanagemet.techtarget.com, 2019).<br></p>
+<div class="bottom_sec">
+<!--create a footer for the site-->
+<p>DOLAPO AKINOLA - akinolad@lsbu.ac.uk </p>
+<p>FARHAN BHATTI - bhattif3@lsbu.ac.uk </p>
+<p>BILAL HUSSAIN - hussain48@lsbBu.ac.uk </p>
+<p>PRINCE SAINT JESUSPIRITIA - jesuspip@lsbu.ac.uk</p>
+<p id="foot-bottom">&copy<!--create copyright symbol--> London South Bank University 2019</p>
+
+<button onclick="topfunc()" id="mybtn" title="Go to top">Top</button>
+
+<script>
+//Get the button
+var mybutton = document.getElementById("mybtn");
+
+// When the user scrolls down 10px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topfunc() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+</div>
+</body>
+</html>

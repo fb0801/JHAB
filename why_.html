@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en"><!--declare the language of the page-->
+<head>
+<title>Why would you CMS?</title><!--Display as site tab title-->
+<link rel="stylesheet" type="text/css" href="farhan_stylesheet.css"> 
+			<!-- link css and html-->
+<meta name ="viewport" content="width=device-width, initial-scale=1.0">
+<!--make the webpage fit the screen-->
+
+</head>
+
+<body>
+<div class="navbar">
+<!--website links for the navigation bar -->
+		<a href ="">Home</a>
+		<a href ="why_use.html">Why use CMS?</a>
+		<a href ="">Purpose of CMS</a>
+		<a href ="">Advantages and Disadvantages</a>
+</div>
+<h1 =class="farhanh1">Why would you use Content Managemt Systems (CMS)?</h1>
+<h4 =class"farhanh4">By Farhan 2019</h4>
+<img width="420" height="345" src="images/giphy.webp" title="GIF of people working" alt="GIF of people working">
+<!--<iframe class="edit_vid" width="620" height="345" src="https://www.youtube.com/embed/6vcBKwnl_Y0 controls=1"></iframe>-->
+<iframe class="edit_vid" width="620" height="345" src="https://www.youtube.com/embed/6vcBKwnl_Y0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture controls=1" allowfullscreen></iframe>
+<p id="main_para">The online world is always changing and many companies of a small, medium or large size or even individuals are attempting to 
+make the leap into the new world of technology. Behind almost every company online is a website and with technical skills becoming 
+more requested by people and most professional software to develop websites costing alot of money to create and host the website, companies
+and individuals are now looking into content management systems.<br>But Farhan why would you use Content Management Systems instead of hiring a web desinger and other programmers for the website?<br>
+The answer is simple Gon its cheaper and easier to use.</p>
+
+<form autocomplete="off">
+<h2 class="farhan">Did you find this page helpful?</h2><img src="images/Gon_hxh.gif" alt="Picture of HXH Gon thinking" title="Gon thinking">
+<p id="edit_txt">If you did or didnt find this page helpful then please leave some feedback on how
+we can improve or what you liked about the site</p>
+<br>
+<!----><center>
+Name:<input type="text" title="Enter Name" name="fname" placeholder="John smith" required><br>
+Email:<input type="email" size="40" title="Enter Email" name="femail" placeholder="Johnsmith123@example.com" required>
+<br><br><textarea rows="10" cols="50" required></textarea>
+<br><br><input id="btn" type ="Submit" value="Submit" title="submit data">
+<input id="btn" type="reset" title="reset inputfeilds">
+</form></center><br>
+
+<h3=class="farhanh3">References</h3>
+<p id="edit_txt_2"><a id="" href="https://www.youtube.com/watch?v=6vcBKwnl_Y0"style="text-decoration:none"target="_blank">Why a CMS is important</a></p>
+
+<div class="bottom_sec">
+<!--create a footer for the site-->
+<p id="foot-bottom">&copy<!--create copyright symbol--> London South Bank University 2019</p>
+<p>DOLAPO AKINOLA - akinolad@lsbu.ac.uk </p>
+<p>FARHAN BHATTI - bhattif3@lsbu.ac.uk </p>
+<p>BILAL HUSSAIN - hussain48@lsbBu.ac.uk </p>
+<p>PRINCE SAINT JESUSPIRITIA - jesuspip@lsbu.ac.uk</p>
+
+<button onclick="topfunc()" id="mybtn" title="Go to top">Top</button>
+
+<script>
+//Get the button
+var mybutton = document.getElementById("mybtn");
+
+// When the user scrolls down 10px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topfunc() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+</div>
+</body>
+</html>

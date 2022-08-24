@@ -1,0 +1,129 @@
+.navbar{
+	/*hide the content*/
+	overflow:hidden;
+	background-color: #333;
+}
+.navbar a{
+	/*placement of the navbar*/
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.navbar a:hover {
+  /*change color on active button/word*/
+  background-color: white;
+  color: black;
+}
+
+.navbar a.active {
+	
+  background-color:white;
+  color: black;
+}
+
+#fahranh1{
+	text-align:center;
+	text-decoration: underline;
+}
+hr{
+	width:870px;
+}
+farhanh4{
+	margin-left:200px;
+	
+}
+.img_edit{
+	width:25%; 
+	/*height:30;*/
+	float:left;
+}
+
+body{
+	font-family:arial;
+	
+}
+#farhan{
+	text-align:center;
+	color:blue;
+}
+/*img{
+	width:"420";
+	height:"345";
+}*/
+.edit_vid{
+	float:right;
+	margin-right: 30px;
+}
+
+#edit_txt{
+	float: right;
+	margin-right:40px;
+}
+#edit_txt_2{
+	text-decoration:none;
+}
+#edit_img{
+	width:"420";
+	height:"345";
+}
+
+.bottom_sec {
+	/*footer of the site*/
+	background-color: lightgrey;
+	padding: 20px;
+	margin-bottom: 10px;
+	/*position: relative;*/
+}
+
+#foot-bottom{
+	text-align: center;
+	color: black;
+	
+}
+#edit_foot{
+	text-decoration: none;
+}
+/*button code*/
+#mybtn{
+	display:none;
+	position: fixed; /*so it cannot be moved*/
+	bottom:20px; /*bottom pad*/
+	right:30px; /*right pad*/
+	font-size: 16px; /*font size*/
+	border: none;
+	outline: none;
+	background-color: black;
+	color: white; /*text color*/
+	cursor: pointer;
+	padding:15px;
+	border-radius: 4px;
+}
+#mybtn:hover{
+	/*on hover*/
+	background-color: #557A95
+	color: white;
+}
+#btn{
+background-color: #3399ff;
+border: none;
+color:white;
+text-align:center;
+text-decoration:none;
+display:inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor:pointer; /*change the shape of the cursor*/
+padding: 12px 28px;	
+}
+#btn:hover {
+	border:2px solid #999999;
+}
+
+#main_para{
+	margin-left:30px;
+	margin-right:30px;
+}
